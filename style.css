@@ -1,0 +1,796 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Navigation Bar*/
+.nav {
+    width: 100%;
+    height: 13vh;
+    background-color: white;
+}
+
+.navrap {
+    width: 80%;
+    margin: auto;
+}
+
+.menu {
+    float: right;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul {
+    margin-top: -90px;
+}
+
+.menu ul li a {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+.menu ul li a:hover {
+    color: red;
+}
+
+/* Banner */
+.ban {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./ban1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.banrap {
+    width: 100%;
+    /* margin: auto; */
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+    position: absolute;
+    /* border: 4px solid white; */
+    padding: 10px;
+    margin-left: 700px;
+    margin-top: 400px;
+}
+
+.logo h1 {
+    font-size: 90px;
+    /* text-transform: uppercase; */
+    color: white;
+    font-family: 'Itim', cursive;
+}
+
+.logo1 {
+    position: absolute;
+    /* border: 4px solid white; */
+    padding: 10px;
+    margin-left: 520px;
+    margin-top: 520px;
+}
+
+.logo1 h2 {
+    font-size: 120px;
+    color: white;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.title-word {
+    animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+@keyframes color-animation {
+    0% {
+        color: var(--color-1)
+    }
+
+    32% {
+        color: var(--color-1)
+    }
+
+    33% {
+        color: var(--color-2)
+    }
+
+    65% {
+        color: var(--color-2)
+    }
+
+    66% {
+        color: var(--color-3)
+    }
+
+    99% {
+        color: var(--color-3)
+    }
+
+    100% {
+        color: var(--color-1)
+    }
+}
+
+.logo2 button {
+    width: 9%;
+    background-color: rgb(240, 27, 27);
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-top: 730px;
+    margin-left: 880px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.logo2 button b a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo2 button:hover {
+    background-color: black;
+}
+
+/*Middle*/
+.mid {
+    width: 100%;
+    height: 60vh;
+}
+
+.midrap {
+    width: 80%;
+    margin: auto;
+}
+
+.midrap1 {
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 75px;
+}
+
+.box {
+    padding: 70px;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.box h1 {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: red;
+    padding-top: 5px;
+}
+
+.box h4 {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: red;
+    padding-top: 27px;
+}
+
+.box h6 {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: red;
+}
+
+.box h2 {
+    padding-left: 40px;
+}
+
+.box h3 {
+    padding-right: 20px;
+}
+
+.box h5 {
+    padding-left: 30px;
+}
+
+.box p {
+    font-size: 22px;
+    text-align: middle;
+    color: black;
+    padding-top: 20px;
+}
+
+/*Pic*/
+.pic {
+    width: 100%;
+    height: 90vh;
+}
+
+.picrap {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.pic0 h2 {
+    position: absolute;
+    text-align: justify;
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    margin-top: 50px;
+    font-family: 'Dancing Script', 'cursive';
+    font-family: 'Ubuntu Mono', 'monospace';
+}
+
+.pic0 p {
+    width: 40%;
+    font-size: 30px;
+    margin-top: 200px;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+.pic0 button {
+    width: 9%;
+    background-color: rgb(240, 27, 27);
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pic0 button b a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.pic0 button:hover {
+    background-color: black;
+}
+
+.picrap1 {
+    padding-top: 70px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.pic1 img {
+    position: relative;
+    width: 30%;
+    height: 20vh;
+    margin-top: 35px;
+    margin-left: 800px;
+    border-radius: 20px;
+}
+
+.pic2 img {
+    width: 80%;
+    height: 20vh;
+    margin-top: 35px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+
+.pic3 img {
+    width: 30%;
+    height: 20vh;
+    margin-top: 35px;
+    margin-left: 800px;
+    border-radius: 20px;
+}
+
+.pic4 img {
+    width: 80%;
+    height: 20vh;
+    margin-top: 35px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+
+.pic5 img {
+    width: 30%;
+    height: 20vh;
+    margin-top: 35px;
+    margin-left: 800px;
+    border-radius: 20px;
+}
+
+.pic6 img {
+    width: 80%;
+    height: 20vh;
+    margin-top: 35px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+
+.pic1:hover {
+    border-bottom: 20px;
+}
+
+/*Ambience*/
+.ambience {
+    width: 100%;
+    height: 105vh;
+}
+
+.ambiencerap {
+    width: 80%;
+}
+
+.logo3 h3 {
+    font-size: 55px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+}
+
+.ambiencerap1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+}
+
+.box1 img {
+    /* position: relative; */
+    width: 100%;
+    height: 40vh;
+    margin-top: 5px;
+}
+
+.box1 img:hover {
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Offer*/
+.offer {
+    width: 100%;
+    height: 90vh;
+}
+
+.offerrap {
+    width: 80%;
+    margin: auto;
+}
+
+.offerrap h3 {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Dancing Script', 'cursive';
+    font-family: 'Kalam', 'cursive';
+}
+
+.offerrap1 {
+    display: grid;
+    padding-left: 200px;
+    grid-template-columns: auto auto;
+    grid-column-gap: 60px;
+}
+
+.offerrap1 img {
+    margin-top: 20px;
+}
+
+.offerrap1 img:hover {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.offerrap2 {
+    margin-top: 20px;
+    margin-right: 450px;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.box2 img {
+    width: 35%;
+    height: 13vh;
+    margin-top: -80px;
+}
+
+.box2 h3 {
+    padding-left: 250px;
+    margin-top: 130px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.box2 h4 {
+    padding-left: 250px;
+    margin-top: -30px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.box2 h5 {
+    padding-left: 250px;
+    margin-top: -30px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.box2 img:hover {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*food*/
+.food {
+    width: 100%;
+    height: 94.5vh;
+}
+
+.foodrap {
+    width: 80%;
+    margin: auto;
+}
+
+.foodrap h4 {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Dancing Script', 'cursive';
+    font-family: 'Edu SA Beginner', 'cursive';
+    font-family: 'Kalam', 'cursive';
+}
+
+.foodrap1 {
+    padding-top: 55px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.food1 img {
+    width: 158%;
+    height: 40vh;
+}
+
+.food2 img {
+    width: 75%;
+    height: 40vh;
+    margin-left: 222px;
+}
+
+.food3 img {
+    width: 100%;
+    height: 40vh;
+    margin-left: 70px;
+}
+
+.food4 img {
+    width: 84%;
+    height: 40vh;
+    margin-left: 70px;
+}
+
+.food5 img {
+    width: 131%;
+    height: 40vh;
+}
+
+.food6 img {
+    width: 81%;
+    height: 40vh;
+    margin-left: 118px;
+}
+
+.food7 img {
+    width: 200%;
+    height: 40vh;
+}
+
+.food1 img:hover {
+    opacity: 0.7;
+}
+
+.food2 img:hover {
+    opacity: 0.7;
+}
+
+.food3 img:hover {
+    opacity: 0.7;
+}
+
+.food4 img:hover {
+    opacity: 0.7;
+}
+
+.food5 img:hover {
+    opacity: 0.7;
+}
+
+.food6 img:hover {
+    opacity: 0.7;
+}
+
+.food7 img:hover {
+    opacity: 0.7;
+}
+
+/* Book */
+.book {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./ambi4.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+.bookrap {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bookrap1 {
+    padding-top: 55px;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.bookrap1 img {
+    width: 25%;
+    height: 80vh;
+    margin-left: 450px;
+    padding-top: 30px;
+}
+
+.bookrap1 h3 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 60px;
+    padding-top: 10px;
+    font-family: 'Dancing Script', 'cursive';
+    font-family: 'Edu SA Beginner', 'cursive';
+    font-family: 'Kalam', 'cursive';
+    color: white;
+}
+
+.bookrap2 {
+    position: absolute;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: -690px;
+    padding-left: 1000px;
+    font-weight: lighter;
+}
+
+.bookrap2 h4 {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.row {
+    width: 100%;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.row input {
+    width: 150%;
+    padding-top: 35px;
+}
+
+.row button {
+    width: 50%;
+    background-color: red;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.row button b {
+    color: white;
+    font-size: 15px;
+}
+
+.row button:hover {
+    background-color: black;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(89, 85, 85);
+}
+
+.footerrap {
+    width: 80%;
+    margin: auto;
+}
+
+.footerrap1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 100px;
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+
+.box3 {
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.box3 h2 {
+    color: yellow;
+    font-size: 25px;
+}
+
+.box3 p {
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+}
+
+.box4 h3 {
+    color: yellow;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 55px;
+    margin-right: 250px;
+}
+
+.menu1 {
+    margin-top: 5px;
+    text-align: left;
+}
+
+.box4 p {
+    width: 55%;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+
+.menu2 h2 {
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: lighter;
+    margin-left: 90px;
+}
+
+.menu2 h4 {
+    width: 40%;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: lighter;
+    margin-left: 82px;
+}
+
+.menu2 h1 {
+    width: 40%;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: lighter;
+    margin-left: 84px;
+}
+
+.box5 {
+    margin-top: 50px;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    margin-top: 40px;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: red;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: black;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu1 ul li {
+    font-size: 25px;
+    padding-top: 30px;
+    list-style: none;
+}
+
+.menu1 ul li a {
+    text-decoration: none;
+    color: white
+}
+
+.menu1 ul li a:hover {
+    color: red;
+}
+
+/*last*/
+.last {
+    width: 100%;
+    height: 6vh;
+    background-color: black;
+}
+
+.lastrap {
+    width: 80%;
+    margin: auto;
+}
+
+.lastrap h2 {
+    color: white;
+    font-size: 25px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: lighter;
+}
